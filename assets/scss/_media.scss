@@ -1,0 +1,1019 @@
+@media (max-width: 1200px) {
+  .faq {
+    &__inner {
+      &::after {
+        width: 150px;
+        height: 150px;
+        right: 0;
+      }
+    }
+  }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .header {
+    &__inner {
+      padding: 60px 0 50px;
+    }
+  }
+
+  .intro {
+    &__inner {
+      grid-template-columns: 460px 1fr;
+    }
+  }
+
+  .about {
+    &__info {
+      width: 55%;
+    }
+
+    &__img {
+      width: 45%;
+    }
+
+    &__headline-title {
+      margin: 0 auto 55px;
+
+      &::before {
+        left: -215px;
+      }
+    }
+
+    &__descr {
+      font-size: 26px;
+    }
+
+    &__decor {
+      width: 225px;
+      height: 225px;
+      top: 25%;
+      right: 3%;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .section {
+    margin-bottom: 100px;
+  }
+
+  .header {
+    &__title {
+      font-size: 35px;
+    }
+  }
+
+  .decor {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .services {
+    &__title {
+      margin-bottom: 70px;
+    }
+  }
+
+  .faq {
+    &__inner {
+      &::after {
+        display: none;
+      }
+    }
+
+    &__heading {
+      margin-bottom: 40px;
+    }
+  }
+
+  .section {
+    margin-bottom: 90px;
+  }
+
+  .header {
+    &__mark {
+      margin: 10px 0 0 auto;
+      padding-left: 60px;
+      font-size: 26px;
+
+      &::before {
+        content: "";
+        width: 65px;
+        height: 65px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .intro {
+    &__inner {
+      grid-template-columns: 360px 1fr;
+    }
+  }
+
+  .about {
+    &__headline-title {
+      &::before {
+        width: 180px;
+        height: 180px;
+        left: -190px;
+      }
+    }
+
+    &__descr {
+      font-size: 22px;
+    }
+
+    &__decor {
+      width: 175px;
+      height: 175px;
+      top: auto;
+      right: 0;
+      bottom: -255px;
+    }
+  }
+
+  .feedback {
+    &__title {
+      margin: 0 auto 60px;
+      max-width: 600px;
+    }
+  }
+}
+
+@media (min-width: 993px) {
+  .animate__animated {
+    /*CSS transitions*/
+    transition-property: none !important;
+    /*CSS transforms*/
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+@media (max-width: 860px) {
+  .services {
+    &__card {
+      max-width: 450px;
+
+      &:nth-child(1) {
+
+        &::before {
+          width: 117px;
+          height: 150px;
+          transform: translate(-24%, 57%);
+        }
+
+        &::after {
+          content: "";
+          width: 412px;
+          height: 412px;
+          background-size: contain;
+          right: -31px;
+          transform: translate(16%, -29%);
+        }
+
+        .services__card-title {
+          font-size: 32px;
+        }
+
+        .services__list {
+          padding-left: 10px;
+          font-size: 18px;
+        }
+
+        .services__item {
+          padding-left: 40px;
+        }
+      }
+
+      &:nth-child(4) {
+        &::after {
+          width: 320px;
+          height: 320px;
+          transform: translate(-44%, 0%);
+        }
+      }
+    }
+
+    &__item {
+      max-width: 400px;
+    }
+
+    &__card-title {
+      font-size: 26px;
+    }
+  }
+
+  .about {
+    &__inner {
+      margin: 0 auto;
+    }
+
+    &__info {
+      width: 100%;
+    }
+
+    &__img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    &__title.title {
+      font-size: 32px;
+    }
+
+    &__title {
+      margin-bottom: 50px;
+    }
+  }
+
+  .myslider {
+    &__heading-title.title {
+      font-size: 32px;
+    }
+
+    &__heading {
+      margin-bottom: 30px;
+    }
+
+    &__slider-prev,
+    &__slider-next {
+      width: 40px;
+      height: 50px;
+    }
+  }
+
+  .team {
+    &__heading-title.title {
+      font-size: 32px;
+    }
+  }
+
+  .faq {
+    &__acc-head {
+      padding: 20px 100px 20px 55px;
+
+      &::before {
+        width: 28px;
+        height: 16px;
+      }
+    }
+
+    &__acc-text {
+      padding: 0px 30px 29px 60px;
+    }
+  }
+
+  .section {
+    margin-bottom: 70px;
+  }
+
+  .header {
+    &__mark {
+      margin: 15px 0 0 auto;
+      padding-left: 50px;
+      font-size: 20px;
+
+      &::before {
+        content: "";
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .social {
+    gap: 30px;
+
+    &__img {
+      width: 33px;
+      height: 33px;
+    }
+  }
+
+  .intro {
+    &__inner {
+      grid-template-columns: 290px 1fr;
+    }
+  }
+
+  .about {
+    &__header {
+      margin-bottom: 30px;
+    }
+
+    &__headline-title {
+      margin: 0px auto 30px;
+
+      &::before {
+        width: 110px;
+        height: 180px;
+        left: -115px;
+      }
+    }
+
+    &__descr {
+      font-size: 18px;
+    }
+
+    &__decor {
+      width: 130px;
+      height: 130px;
+      bottom: -220px;
+    }
+
+    &__list {
+      gap: 15px;
+    }
+
+    &__item-icon {
+      width: 45px;
+      height: 45px;
+    }
+
+    &__item-text {
+      padding: 12px 13px 12px 20px;
+      max-width: 410px;
+      width: 100%;
+      background-color: #e6ff28;
+      border-radius: 10px;
+    }
+  }
+
+  .form-box {
+    &__title {
+      font-size: 29px;
+    }
+  }
+
+  .form {
+    margin: 0 auto;
+  }
+
+  .feedback {
+    &__title.title {
+      font-size: 32px;
+    }
+
+    &__title--min span {
+      font-size: 40px;
+    }
+  }
+
+  .footer {
+    &__inner {
+      gap: 30px;
+    }
+
+    &__social {
+      gap: 30px;
+    }
+
+    &__social-text {
+      font-size: 28px;
+    }
+
+    &__copy {
+      max-width: 300px;
+    }
+  }
+}
+
+// MEDIA
+// 750px
+@media (max-width: 750px) {
+  .team {
+    &__slaid {
+      margin-right: 25px;
+      animation: teams 40s linear infinite;
+    }
+
+    &__image-box {
+      width: 190px;
+
+      & img {
+        width: 180px;
+      }
+    }
+
+    &__image-info {
+      padding: 3px 5px 2px;
+      width: 180px;
+      height: 49px;
+    }
+
+    &__info-name {
+      margin-bottom: 0;
+    }
+  }
+
+  .purple__info {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 640px) {
+  .services {
+    &__title {
+      margin-bottom: 40px;
+    }
+  }
+
+  .review {
+    &__avatar {
+      width: 160px;
+      height: 160px;
+      transform: translateY(-42%);
+    }
+  }
+
+  .team {
+    &__heading {
+      margin-bottom: 35px;
+    }
+  }
+
+  .faq {
+    &__acc-head {
+      font-size: 18px;
+      line-height: normal;
+    }
+  }
+
+  .section {
+    margin-bottom: 50px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 111%
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .btn {
+    max-width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    line-height: 45px;
+  }
+
+  .social {
+    &__img {
+      width: 27px;
+      height: 27px;
+    }
+  }
+
+  .header {
+    &__inner {
+      margin: 0 auto;
+      padding: 45px 0;
+      max-width: 435px;
+      justify-content: flex-end;
+      gap: 0;
+    }
+
+    &__title {
+      margin: -10px 0 0 auto;
+      font-size: 20px;
+    }
+
+    &__mark {
+      margin: 15px 0 0 auto;
+      padding-left: 45px;
+      font-size: 16px;
+
+      &::before {
+        content: "";
+        width: 47px;
+        height: 47px;
+      }
+    }
+  }
+
+  .intro {
+    &__inner {
+      display: block;
+    }
+
+    &__title {
+      display: none;
+    }
+
+    &__content-box {
+      max-height: none;
+      height: 317px;
+    }
+  }
+
+  .about {
+    margin-bottom: 25px;
+
+    &__inner {
+      max-width: none;
+    }
+
+    &__headline-title {
+      margin: 0 auto 20px;
+
+      &::before {
+        width: 65px;
+        height: 65px;
+        left: -70px;
+      }
+    }
+
+    &__title {
+      margin-bottom: 13px;
+    }
+
+    &__header {
+      margin-bottom: 20px;
+    }
+
+    &__descr {
+      font-size: 14px;
+    }
+
+    &__decor {
+      width: 90px;
+      height: 90px;
+      bottom: -28%;
+    }
+  }
+
+  .form-block {
+    padding: 0 13px;
+  }
+
+  .form-box {
+    padding: 30px 8px 30px;
+
+    &__inner-title {
+      &::after {
+        border-radius: 15px;
+      }
+    }
+
+    &__title {
+      font-size: 24px;
+
+      span {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .form {
+    &__btn {
+      margin-top: 35px;
+    }
+  }
+
+  .form-sent {
+    padding: 15px 5px 20px;
+
+    &__img {
+      width: 220px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__descr {
+      font-size: 20px;
+    }
+  }
+
+  .feedback {
+    &__title {
+      margin-bottom: 45px;
+    }
+
+    &__title--min span {
+      margin-top: 10px;
+    }
+  }
+
+  .footer {
+    .logo {
+      width: 160px;
+      height: 40px;
+    }
+
+    &__inner {
+      padding: 25px 0;
+      gap: 15px;
+    }
+
+    &__bottom {
+      font-size: 12px;
+      align-items: flex-start;
+    }
+
+    &__copy {
+      margin-bottom: 10px;
+      max-width: 220px;
+    }
+
+    &__info {
+      gap: 5px;
+    }
+  }
+}
+
+@media (max-width: 545px) {
+  .services {
+    &__title {
+      margin-bottom: 30px;
+    }
+  }
+
+  .review {
+    margin: 70px auto 0;
+    padding: 75px 13px 30px;
+    max-width: 350px;
+
+    &__avatar {
+      width: 130px;
+      height: 130px;
+      transform: translateY(-42%);
+    }
+
+    &__name {
+      font-size: 20px;
+    }
+
+    &__position {
+      margin-bottom: 22px;
+      font-size: 16px;
+    }
+
+    &__descr {
+      font-size: 14px;
+      letter-spacing: -.2px;
+    }
+  }
+
+  .myslider {
+    &__heading {
+      margin-bottom: 20px;
+    }
+
+    &__slider-prev,
+    &__slider-next {
+      width: 37px;
+      height: 27px;
+    }
+  }
+
+  .team {
+    &__heading {
+      margin-bottom: 25px;
+    }
+  }
+
+  .faq {
+    &__heading {
+      margin-bottom: 30px;
+    }
+
+    &__acc-head {
+      padding: 15px 70px 15px 55px;
+      font-size: 16px;
+    }
+  }
+
+  .section {
+    margin-bottom: 40px;
+  }
+
+  .about {
+    &__item-icon {
+      width: 40px;
+      height: 40px;
+    }
+
+    &__item-text {
+      padding: 10px 10px 10px 18px;
+      font-size: 14px;
+    }
+
+    &__decor {
+      width: 70px;
+      height: 70px;
+      bottom: -28%;
+    }
+  }
+
+  .feedback {
+    &__title {
+      margin-bottom: 35px;
+    }
+  }
+
+  .form-box {
+    padding: 20px 8px;
+
+    &__inner-title {
+      &::after {
+        height: 35px;
+      }
+    }
+
+    &__title {
+      margin: 0 auto;
+      max-width: 380px;
+      font-size: 20px;
+      line-height: 162%;
+    }
+  }
+
+  .form {
+    &__btn {
+      margin-top: 25px;
+    }
+  }
+
+  .form-sent {
+    padding: 15px 5px 10px;
+
+    &__img {
+      margin: 0 auto 20px;
+      width: 200px;
+    }
+
+    &__title {
+      font-size: 18px;
+    }
+
+    &__descr {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    &__title {
+      margin-bottom: 20px;
+    }
+
+    &__cards {
+      gap: 12px;
+    }
+
+    &__card {
+      padding: 17px 20px 25px;
+      max-width: 380px;
+      border-radius: 15px;
+
+      &:nth-child(1) {
+        &::before {
+          width: 97px;
+          height: 130px;
+          transform: translate(-22%, 54%);
+        }
+
+        &::after {
+          width: 340px;
+          height: 340px;
+          transform: translate(14%, -28%);
+        }
+
+        .services__card-title {
+          margin-bottom: 15px;
+          font-size: 24px;
+        }
+
+        .services__list {
+          font-size: 16px;
+        }
+
+        .services__item {
+          padding-left: 35px;
+
+          &::before {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+
+      &:nth-child(4) {
+        &::after {
+          width: 250px;
+          height: 250px;
+          transform: translate(-50%, -5%);
+        }
+      }
+    }
+
+    &__card-title {
+      margin-bottom: 22px;
+      font-size: 20px;
+    }
+
+    &__card-descr {
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    &__list {
+      font-size: 14px;
+    }
+
+    &__item {
+      padding-left: 27px;
+
+      &::before {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+
+  .team {
+    &__heading {
+      margin-bottom: 20px;
+    }
+  }
+
+  .faq {
+    &__heading {
+      margin-bottom: 20px;
+    }
+
+    &__acc-head {
+      padding: 15px 60px 15px 55px;
+      font-size: 14px;
+    }
+
+    &__acc-text {
+      padding: 0px 30px 20px 60px;
+    }
+  }
+
+  .header {
+    &__title {
+      font-size: 20px;
+    }
+  }
+
+  .about {
+    &__headline-title {
+      &::before {
+        left: -60px;
+      }
+    }
+  }
+
+  .feedback {
+    &__title {
+      margin-bottom: 22px;
+    }
+  }
+
+  .form-box {
+    &__inner-title {
+      &::after {
+        height: 30px;
+      }
+    }
+
+    &__title {
+      margin: 0 auto;
+      max-width: 380px;
+      font-size: 16px;
+    }
+  }
+
+  .form {
+    &__title {
+      font-size: 14px;
+    }
+
+    &__btn {
+      margin-top: 15px;
+    }
+  }
+
+  .form-sent {
+    padding: 15px 5px 20px;
+
+    &__img {
+      margin: 0 auto 15px;
+      width: 190px;
+    }
+
+    &__title {
+      margin: 0 auto 15px;
+      font-size: 16px;
+    }
+
+    &__descr {
+      margin: 0 auto 15px;
+      font-size: 16px;
+    }
+  }
+
+  .footer {
+    &__social {
+      align-items: flex-end;
+      gap: 20px;
+    }
+
+    &__social-text {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .services {
+    &__card {
+      &:nth-child(1) {
+        &::after {
+          width: 300px;
+          height: 300px;
+          transform: translate(13%, -31%);
+        }
+      }
+
+      &:nth-child(4) {
+        &::after {
+          width: 210px;
+          height: 210px;
+          transform: translate(-63%, -13%);
+        }
+      }
+    }
+
+    &__card-descr {
+      font-size: 13px;
+    }
+  }
+
+  .review {
+    margin: 70px auto 0;
+    padding: 75px 13px 30px;
+    max-width: 350px;
+
+    &__avatar {
+      width: 120px;
+      height: 120px;
+      transform: translateY(-45%);
+    }
+
+    &__name {
+      font-size: 19px;
+    }
+
+    &__position {
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
+    &__descr {
+      font-size: 13px;
+    }
+  }
+
+  .footer {
+    &__bottom {
+      font-size: 11px;
+      letter-spacing: -.3px;
+    }
+
+    &__copy {
+      max-width: 190px;
+    }
+  }
+}

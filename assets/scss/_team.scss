@@ -1,0 +1,121 @@
+// TEAM
+.team {
+  &__heading {
+    margin-bottom: 45px;
+    padding: 0 30px;
+    color: $white;
+  }
+
+  &__heading-title {
+    max-width: none;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  &__heading-text {
+    max-width: 740px;
+  }
+
+  &__slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 5840px;
+  }
+
+  &__slaid {
+    margin-right: 37px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-animation: teams 45s linear infinite;
+    animation: teams 45s linear infinite;
+    border-radius: 7px;
+  }
+
+  &__image-box {
+    position: relative;
+    border-radius: 7px;
+  }
+
+  &__image-info {
+    margin-top: 7px;
+    text-align: center;
+    padding: 9px 5px;
+    background-color: #fff;
+    border-radius: 7px;
+    cursor: default;
+  }
+
+  &__info-name {
+    margin-bottom: 2px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__info-dir {
+    font-family: "Work Sans", sans-serif;
+    line-height: normal;
+  }
+}
+
+.purple {
+  background-color: #BA89E5;
+
+  &__img {
+    border-radius: 7px;
+    border: 7px solid #BA89E5;
+  }
+}
+
+.yellow {
+  background-color: #E6FF28;
+
+  &__img {
+    border-radius: 7px;
+    border: 7px solid #E6FF28;
+  }
+
+  &__info {
+    background-color: #5F00A2;
+    color: $white;
+  }
+}
+
+.orange {
+  background-color: #FF5100;
+
+  &__img {
+    border-radius: 7px;
+    border: 7px solid #FF5100;
+  }
+}
+
+@-webkit-keyframes teams {
+  100% {
+    -webkit-transform: translate3d(-2500px, 0, 0);
+    transform: translate3d(-2500px, 0, 0);
+  }
+}
+
+@keyframes teams {
+  100% {
+    -webkit-transform: translate3d(-2500px, 0, 0);
+    transform: translate3d(-2500px, 0, 0);
+  }
+}
+
+.team__image-box img {
+  width: 235px;
+  border-radius: 10px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  overflow: hidden;
+}
+
+.team__image-box:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
